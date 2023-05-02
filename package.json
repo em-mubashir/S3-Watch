@@ -1,0 +1,25 @@
+{
+  "name": "s3-watch",
+  "version": "1.0.0",
+  "description": "s3-watch",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "author": "Malik Mubashir",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.310.0",
+    "@aws-sdk/client-sts": "^3.310.0",
+    "@aws-sdk/credential-provider-ini": "^3.310.0",
+    "@aws-sdk/credential-provider-node": "^3.310.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.1",
+    "nodemon": "^2.0.22",
+    "xml2js": "^0.5.0",
+    "xmldom": "^0.6.0"
+  }
+}
